@@ -6,7 +6,7 @@ permalink: /terminos/
 
 # Términos y Condiciones de Uso de ZenIA
 
-**Última actualización:** 24 de noviembre de 2025
+**Última actualización:** 23 de noviembre de 2025
 
 Bienvenido a **ZenIA**. Por favor, lea detenidamente estos Términos y Condiciones ("Términos") antes de utilizar la aplicación móvil ZenIA ("el Servicio" o "la Aplicación") y el sitio web operado por el **Equipo ZenIA** ("nosotros", "nuestro" o "la Organización"), con sede en Guadalajara, Jalisco, México.
 
