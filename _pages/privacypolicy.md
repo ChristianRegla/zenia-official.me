@@ -1,60 +1,135 @@
 ---
 layout: page
-title: Privacy Policy
-include_in_header: false
+title: Aviso de Privacidad
+permalink: /privacidad/
 ---
 
-**Last updated**  
-August 1 2019
+# Aviso de Privacidad de ZenIA
 
-# Privacy Policy
-Submissive a when owing much far bawdy thanks impolitely alas overlaid one and this one chuckled darn on more due much misheard amused far far the much purposeful that wildebeest dalmatian and piranha bluebird this and much despite however much sincere nonsensical this paradoxically more.
+**Última actualización:** 1 de abril de 2026
 
-**Please note:** This is purely a dummy Privacy Policy that serves as an example for how you can use this app landing page generator. Please replace the contents with your own privacy policy.
+En **ZenIA** ("nosotros", "nuestro" o "la Aplicación"), respetamos su privacidad y estamos comprometidos a proteger sus datos personales. Este Aviso de Privacidad describe cómo recopilamos, usamos y protegemos su información.
 
-<br>
+## 1. Información que recopilamos
 
-## 1.0 Information We Collect
-Far near but lighted walking far oyster hello kneeled flung and roadrunner and more witless narrowly flexed brokenly blandly much in famous jeez obsessive that.
+### 1.1 Información proporcionada por el usuario
+Podemos recopilar:
+- Nombre (opcional)
+- Correo electrónico
+- Información ingresada manualmente sobre su estado emocional (ej. cómo se siente, notas del día)
 
-### 1.1 Information from third parties
-- Ouch until smirked some some newt that at frustrating.
-- Nimbly handsomely fabulously python.
-- Alas informally taped when a dear some.
+### 1.2 Datos de salud (Health Connect)
+Con su consentimiento explícito, podemos acceder a:
+- Frecuencia cardíaca
+- Pasos
+- Calorías quemadas
 
-### 1.2 Information you provide to us 
-Menacingly much walrus far together derisive falcon the toneless unceremoniously yet yikes a hung when because far drooled cast amused naughtily quiet hare a thickly more dogged drank more this dismounted since hence nakedly jeez rolled far gerbil the hey puerilely where vociferously struck insane much twitched instead some beneath then wiped dull snuffed far jeez nightingale bit goodness obscurely quit that much yet nefarious careless some concrete shrewdly gull closed this hugged aboard.
+Estos datos se obtienen mediante **Health Connect de Android**.
 
-<br>
+### 1.3 Datos del chatbot
+- Mensajes que usted escribe en el chat
+- Contexto emocional proporcionado voluntariamente
 
-## 2.0 What Personal Information we collect about you and how we collect it
-Where cut one reproachful alas ambiguous helpful hen raucous editorial underwrote dubiously therefore this boastfully or possessively oh modest amidst some opposite far wasp grew emu snickered some jeepers and circa much that *equitable* foul camel caudally oh opossum far dear met far much close hello beheld facetious far goodness tidily reindeer that kiwi thus crud that paid and by titilatingly hey falcon lemming or well approving sympathetically groundhog mongoose and deeply peaceful wow ouch far regally this and near and badly fatal blunt mischievously and and the blew.
+---
 
-### 2.1 Third Parties we collect information from
-Various remotely save this querulously explicitly one this and far congenially broad grew said or abhorrently haltered darn beheld panther shrank and one goldfish the more away as much different moth.
+## 2. Uso de la información
 
-| Third Party | What is it used for? |
-| :--- | :--- |
-| Falcon | Tidily reindeer that kiwi thus crud that paid and by titilatingly hey falcon lemming. |
-| Eagle | Juggled crud a however overslept vehemently kept indisputably anteater walked alas or into. |
+Utilizamos la información para:
 
-<br>
+- Mostrar estadísticas y gráficas de bienestar
+- Ayudar al usuario a llevar seguimiento emocional
+- Mejorar la experiencia del chatbot
+- Brindar respuestas más contextualizadas (solo si el usuario lo permite)
 
-## 3.0 What rights do you, as the data subject, have
-This goodness well well and more cowardly lynx credibly more apart save and less oh examined ouch marginal growled and proper liberally salmon busy some while pointed far because understood.
+### IMPORTANTE:
+- No usamos los datos para publicidad
+- No vendemos información a terceros
 
-1. Boastfully or possessively oh modest amidst.
-2. Far far the much purposeful that wildebeest dalmatian.
-3. Adamant or pushed less far overthrew.
+---
 
-All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+## 3. Uso de inteligencia artificial
 
-<br>
+El chatbot de ZenIA utiliza modelos de IA (Gemini de Google).
 
-## 4.0 How we store and secure the Personal Information we collect
-Worm where gravely behind logically far in tastefully as alas delicately before well darn then far the much pulled red-handed circa much much far pangolin spelled much clung dachshund smirked close some the adamant or pushed less far overthrew in moth begrudging warthog newt pragmatic bent darn and far needlessly notwithstanding angrily as celestially horse rebuking magnanimous dear inscrutably jeepers listless before saucy this much however and wolf dear cringed crab a wanton jeepers flatteringly characteristically a atrocious and returned more lemming robin let some crud that more secure nimble where soundly pitiful because bombastic much.
+Esto implica que:
+- Los mensajes pueden ser procesados por servicios de Google
+- La IA no reemplaza atención profesional
+- No se toman decisiones médicas automáticas
 
-<br>
+---
 
-## 5.0 Information processing and transfers for EEA individuals
-Cracked a more and iguana a without some echidna a abnormal hello and beat thanks jeepers gnu jeepers until up depending for drooled awfully angelfish relentless much a well wasp some in impala darn and overate greedily wow kookaburra beneath much wistful fluid until and lemming less armadillo redoubtable after much capybara wow that hence interbred timorous loosely oh.
+## 4. Uso de Health Connect
+
+El uso de datos de Health Connect cumple con la política de **uso limitado**:
+
+- Se utilizan únicamente dentro de la app
+- No se comparten con terceros
+- No se usan con fines publicitarios
+- No se usan para decisiones médicas
+
+---
+
+## 5. Almacenamiento de datos
+
+Los datos pueden almacenarse en:
+- Firebase (Google Cloud)
+
+Se utilizan medidas de seguridad estándar para proteger la información.
+
+---
+
+## 6. Contactos (contacto de emergencia)
+
+ZenIA puede permitir guardar manualmente:
+- Nombre de contacto
+- Número telefónico
+
+IMPORTANTE:
+- No accedemos a la lista de contactos del dispositivo
+- No leemos contactos automáticamente
+
+---
+
+## 7. Compartición de datos
+
+No compartimos datos personales con terceros, excepto:
+
+- Servicios necesarios para el funcionamiento (Firebase, Google AI)
+- Cumplimiento legal si es requerido
+
+---
+
+## 8. Derechos del usuario
+
+Usted puede:
+
+- Acceder a sus datos
+- Solicitar eliminación de datos
+- Eliminar su cuenta en cualquier momento
+
+---
+
+## 9. Seguridad
+
+Aplicamos medidas razonables para proteger su información, pero ningún sistema es 100% seguro.
+
+---
+
+## 10. Menores de edad
+
+La aplicación no está dirigida a niños menores de 13 años.
+
+---
+
+## 11. Cambios en esta política
+
+Podemos actualizar este aviso. Notificaremos cambios importantes dentro de la app.
+
+---
+
+## 12. Contacto
+
+Si tiene dudas sobre este Aviso de Privacidad:
+
+- Correo: contacto@zenia-official.me
+- Ubicación: Guadalajara, Jalisco, México
