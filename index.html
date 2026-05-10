@@ -897,33 +897,39 @@
     <script>
         // Lógica de navegación (SPA)
         function navigateTo(viewId) {
-            // Ocultar todas las secciones
-            document.querySelectorAll('.view-section').forEach(el => {
-                el.classList.add('hidden');
-                el.classList.remove('block');
-            });
+                // Ocultar todas las secciones
+                document.querySelectorAll('.view-section').forEach(el => {
+                    el.classList.add('hidden');
+                    el.classList.remove('block');
+                });
 
-            // Mostrar la sección seleccionada
-            const target = document.getElementById('view-' + viewId);
-            if (target) {
-                target.classList.remove('hidden');
-                target.classList.add('block');
+                const target = document.getElementById('view-' + viewId);
+                if (target) {
+                    target.classList.remove('hidden');
+                    target.classList.add('block');
+                }
+
+                // ACTUALIZACIÓN: Cambiar la URL visible en el navegador sin recargar la página
+                if (viewId === 'home') {
+                    history.replaceState(null, null, window.location.pathname); // Limpia el hash
+                } else {
+                    history.replaceState(null, null, '#' + viewId);
+                }
+
+                // Scroll to top
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+
+                // Cerrar menú móvil si está abierto
+                const mobileMenu = document.getElementById('mobile-menu');
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                }
+
+                // Reiniciar animaciones si vuelve a home
+                if (viewId === 'home') {
+                    setTimeout(initScrollAnimations, 100);
+                }
             }
-
-            // Scroll to top
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-
-            // Cerrar menú móvil si está abierto
-            const mobileMenu = document.getElementById('mobile-menu');
-            if (!mobileMenu.classList.contains('hidden')) {
-                mobileMenu.classList.add('hidden');
-            }
-
-            // Reiniciar animaciones si vuelve a home
-            if (viewId === 'home') {
-                setTimeout(initScrollAnimations, 100);
-            }
-        }
 
         // Toggle Menú Móvil
         document.getElementById('mobile-menu-btn').addEventListener('click', () => {
@@ -974,8 +980,22 @@
 
         // Inicializar animaciones al cargar
         document.addEventListener('DOMContentLoaded', () => {
-            initScrollAnimations();
-        });
+                initScrollAnimations();
+
+                // Detectar si la URL trae un hash (ej. zenia-official.me/#privacy)
+                const hash = window.location.hash.substring(1);
+
+                // Vistas válidas en tu página
+                const validViews = ['home', 'privacy', 'terms', 'delete-account'];
+
+                if (hash && validViews.includes(hash)) {
+                    // Si el link es válido, mostrar esa vista directamente
+                    navigateTo(hash);
+                } else {
+                    // Si no hay hash o es inválido, mostrar el inicio por defecto
+                    navigateTo('home');
+                }
+            });
 
         function scrollToNia(event) {
             event.preventDefault();
